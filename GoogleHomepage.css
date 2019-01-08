@@ -1,0 +1,148 @@
+body {
+    min-width: 980px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 24px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+header img:hover{
+    opacity: .85
+}
+
+header div {
+    margin: 0 10px;
+    
+}
+
+header div:hover {
+    text-decoration: underline;
+}
+
+header div:hover {
+    text-decoration: underline;
+}
+
+
+header button {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: white;
+}
+
+main * {
+    margin: auto;
+}
+
+footer {
+    background-color: #f2f2f2;
+    font-family: 'Liberation Sans';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+main img {
+    display: block;
+    margin: 139px auto 30px;
+}
+
+input {
+    margin: 0 auto 35px;
+    padding-left: 12px;
+    padding-top: 6px;
+    width: 580px;
+    height: 40px;
+    border: 1px solid #e4e4e4;
+    box-shadow: 2px 5px 8px #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 0 15px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    height: 35px;
+}
+
+main button:hover{
+    color: black;
+    border: 1px solid gray;
+}
+
+.navFooter div {
+    list-style-type: none;
+    list-style-position: initial;
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+}
+
+.footGauche li {
+    margin: 0 0 0 30px;
+    line-height: 40px;
+    align-content: center;
+    
+}
+
+.footDroite li {
+    margin: 0 30px 0 0;
+    line-height: 40px;
+    align-content: center;
+}
+
+.navFooter {
+    display: flex;
+    justify-content: space-between;
+    color: #5f6368;
+    height: 35px;
+}
+a:active, a:link, a:visited {
+    color: #5f6368;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.pays {
+    color: rgba(0,0,0,.54);
+    margin: 0 0 0 30px;
+    line-height: 40px;
+    height: 35px;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    align-content: center;
+    font-size: 15px;
+}
+
+.conteneur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
